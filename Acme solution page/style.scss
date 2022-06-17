@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  font-size: 17.6px;
+  line-height: 26.4px;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 272.8px;
+  height: auto;
+}
+#showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#showcase .bg-image {
+  position: absolute;
+  background: #333
+    url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+.button {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 2em;
+  border: 1px solid #666;
+  margin: 0.5em 0;
+}
+
+.button:hover {
+  background: #eaeaea;
+  color: #333;
+}
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+#showcase .content {
+  width: 827.2px;
+}
+.title {
+  padding: 26.4px;
+}
+.content {
+  width: 827.2px;
+  margin: 0;
+  padding: 17.6px 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 26.4px 0px;
+}
+#section-1 {
+  height: 224.583px;
+  background-color: #eaeaea;
+  color: #333;
+  padding-bottom: 35.2px;
+}
+.section1-content {
+  display: flex;
+  justify-content: center;
+}
+.content-text {
+  width: 827.2px;
+  height: 96.9833px;
+  display: flex;
+  justify-content: space-around;
+}
+.items {
+  width: 827.2px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+#section-2 {
+  background-color: #333;
+  padding: 35.2px 17.6px 17.6px 17.6px;
+  display: flex;
+  justify-content: center;
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+.block-content {
+  padding: 26.4px;
+}
+.block {
+  margin: 10px;
+  width: 272.8px;
+  background-color: #ffffff;
+  color: #333;
+}
+#section-3 {
+  padding: 35.2px;
+  background-color: #ffffff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3-content {
+  width: 827.2px;
+  padding: 17.6px 0;
+}
+#section-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.box-1 {
+  width: 827.2px;
+  padding: 32px;
+  background-color: #2690d4;
+  color: #fff;
+}
+.box-2 {
+  width: 827.2px;
+  padding: 32px;
+  background-color: #333;
+  color: #fff;
+}
+footer {
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+}
+@media (min-width: 700px) {
+  #section-2{
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+  }
+}
